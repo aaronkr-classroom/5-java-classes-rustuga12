@@ -5,7 +5,7 @@ public class Ex706 {
 		Dog d = new Dog();
 		d.breed = "포메라니안";//public 변수
 		d.color = "갈색"; //public 변수
-	}
+	
 
 	System.out.println("강아지 품종: " + d.breed);
 	System.out.println("강아지 색상: " + d.color);
@@ -15,9 +15,9 @@ public class Ex706 {
 	System.out.println("강아지 나이:" + d.age);
 	
 	d.run(); //protected 메서드
-	
-	d.name = "다운"; // private 변수 (오류)
-	System.out.println("강아지 이름: "+ d.name); //오류
-	d.sleep(); //private 메서드 (오류)
-	
+		
+	// d.name = "다운"; // private 변수 (오류)
+	// System.out.println("강아지 이름: "+ d.name); //오류
+	// d.sleep(); //private 메서드 (오류)
+	}
 }
